@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575;
+    height: 385;
+    top: -1135px;
+    left: -1996px;
+    background: linear-gradient(black, red, black);
+}
+
+.home, .guest{
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    text-align: center;
+}
+
+.homeheader, .guestheader{
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    letter-spacing: 0%;
+    text-align: center;
+    color : #EEEEEE;
+    width: 149px;
+    height: 36px;
+}
+
+.homeheader{
+    top: 68px;
+    left: 85px;
+}
+
+.guestheader{
+    top: 68px;
+    left: 340px;
+}
+
+.homescore, .guestscore{
+    background: #080001;
+    width: 155px;
+    height: 120px;
+    top: 125px;
+    border-radius: 5px;
+    border: 3px solid  blue;
+}
+
+.homescore{
+left: 82px;
+}
+
+.guestscore{
+left: 337px;
+}
+
+#home-point, #guest-point{
+    width: 117px;
+    height: 120px;
+    top: 125px;
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 126.67px;
+    color: #F94F6D;
+    margin: auto;
+    text-align: center;
+}
+
+#home-point{
+    left: 100px;
+}
+
+#guest-point{
+    left: 355px;
+}
+
+.homescore-btns, .guestscore-btns{
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+}
+
+.homescore-btns button, .guestscore-btns button{
+    background: none;
+    border: 2px solid #9AABD8;
+    color : #9AABD8;
+    width: 45px;
+    height: 45px;
+    top: 271px;
+    left: 136px;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.homescore-btns button{
+    left: 136px;
+}
+
+.guestscore-btns button{
+    left: 136px;
+}
+
+.resetbtn{
+    margin: 160px 0px ;
+    border: 4px solid  blue;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bolder;
+    background-color: #080001;
+}
